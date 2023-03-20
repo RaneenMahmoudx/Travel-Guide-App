@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/all"
+            android:icon="@drawable/ic_baseline_playlist_add_check_24"
+            android:title="All" />
+        <item
+            android:id="@+id/Favorite"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            android:title="Favorite" />
+        <item
+            android:id="@+id/Sorted"
+            android:icon="@drawable/ic_baseline_sort_24"
+            android:title="Sorted" />
+        <item
+            android:id="@+id/Profile"
+            android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+            android:title="Profile" />
+
+
+        <item
+            android:id="@+id/Logout"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="Logout" />
+    </group>
+</menu>
